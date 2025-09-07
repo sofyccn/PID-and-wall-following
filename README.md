@@ -30,3 +30,16 @@ Task 2 [Demo Video](https://usfedu-my.sharepoint.com/:v:/g/personal/scobonavas_u
 - Wall following works for most maze/mode combos.
 - Identified limitations when maze geometry prevents full navigation.
 
+## Dependencies
+
+This project builds on the [control of mobile robots](https://github.com/aagarwal32/usf-mobile-robotics.git) repository, which provides:
+- Robot configuration (Webots worlds: `maze2.xml`, `maze3.xml`, `maze4.xml`)
+- LIDAR sensor integration
+- Simulation setup for the mobile robot
+
+To run this project:
+1. Clone the dependency repo:
+   ```bash
+   git clone https://github.com/aagarwal32/usf-mobile-robotics.git
+
+
